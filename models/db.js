@@ -7,7 +7,7 @@ const connectionParams = {
 //Function which connects the server to the database
 const connectToDb = () => {
     try {
-        mongoose.connect(process.env.DB_URL, connectionParams)
+        mongoose.connect(process.env.DB_URL_01, connectionParams)
         console.log(`Connected to the database`);
 
     } catch (error) {
